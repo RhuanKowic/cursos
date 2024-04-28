@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#" name="signup" method="post" target="_blank" autocomplete="off"
+        onsubmit="alert('Formulário enviado.')">
+        Nome: <input type="text" name="name">
+        Idade: <input type="number" name="age">
+        Senha: <input type="password" name="password" id="password">
+        <button type="submit">Enviar</button>
+        <h2>checkboxs</h2>
+    </form>
+    <form action="">
+        <input type="checkbox" name="number[]" id="1">1
+        <input type="checkbox" name="number[]" id="2">2
+        <p>Radio</p>
+        <input type="radio" name="concorda" id="" value="sim">sim
+        <input type="radio" name="concorda" id="" value="nao">nao
+        <h2>tipos botões</h2>
+        <button type="button" onclick="alert('Um')">Clicável</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+        <h2>select</h2>
+        <select name="job" id="">
+            <option value="auxiliar" selected>Auxiliar Adminstrativo</option>
+            <option value="back-end">Desenvolvedor Back-end</option>
+        </select>
+        <h2>textarea</h2>
+            Mensagem: <textarea name="text" id="" cols="30" rows="10"></textarea>
+    </form>
+</body>
+
+</html>
