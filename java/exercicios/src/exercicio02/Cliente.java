@@ -7,6 +7,7 @@ public class Cliente {
   String telefone;
 
   void imprimeDados(){
+    System.out.println("--- DADOS DO CLIENTE ---");
     System.out.println("Nome: " + nome);
     System.out.println("Ano de nascimento: " + anoNasc);
     System.out.println("CPF: " + cpf);
