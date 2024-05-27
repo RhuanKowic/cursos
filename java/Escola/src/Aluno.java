@@ -2,6 +2,11 @@ public class Aluno {
   private String nome;
   private int age;
 
+  public Aluno(String nome, int age) {
+    this.nome = nome;
+    this.age = age;
+  }
+
   public int getAge() {
     return age;
   }
