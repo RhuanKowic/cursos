@@ -4,6 +4,6 @@ public class Main {
       System.out.println(e.getSigla() + " - " + e.getNome());
     }
     EstadoBrasileiro eb = EstadoBrasileiro.MINAS_GERAIS;
-    System.out.println("Moro no estado de " + eb);
+    System.out.println("Moro no estado de " + eb.getNome());
   }
 }
